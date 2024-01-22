@@ -163,9 +163,48 @@ main p {
 
 
 /* pagina 2 */
+
 .about p {
     background-color: #F2B3B9;
     padding: 20px;
     border-radius: 10px;
 }
 
+.tekstje {
+    position: relative;
+}
+
+.tekstje img {
+    width: 100%; 
+}
+
+.tekstje p {
+    position: absolute;
+    top: 50%; /* Plaats de tekst in het midden van de afbeelding */
+    left: 50%; /* Plaats de tekst in het midden van de afbeelding */
+    transform: translate(-65%, -95%); /* Centreer de tekst exact in het midden */
+    color:black; 
+    font-weight: bold;
+}
+
+.product {
+    display: flex; /* Zet de container om in een flex-container */
+    align-items: center; /* Centreer de items verticaal */
+}
+
+.product img {
+    margin: 20px;
+    width: 120px; 
+    height: 120px;
+    border-radius: 100%; 
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+    z-index: 1;
+}
+
+
+.product p {
+    margin-left: -40px;
+    background-color: #9CA364;
+    padding: 30px;
+    border-radius: 10px;
+}
