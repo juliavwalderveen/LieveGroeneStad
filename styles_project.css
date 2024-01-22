@@ -17,7 +17,7 @@ header img {
     height: auto;
 }
 
-nav {
+header nav {
     display: flex;
     font-size: 26px;
     justify-content: center;
@@ -28,7 +28,7 @@ nav {
     
 }
 
-nav ul {
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,20 +36,17 @@ nav ul {
 }
 
 
-nav ul li {
+header nav ul li {
     margin: 0 10px;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: #fff;
 }
 
 /* plaatjes groente */
-.aub {
-    width: 100px;
-    height: auto;
-}
+
 
 /* Flexbox-container voor Aubergines aan de linkerkant */
 .flex-container {
@@ -68,15 +65,100 @@ nav a {
     
 }
 
-/* Stijlen voor de ,ais-afbeeldingen */
+/* Stijlen voor de mais-afbeeldingen */
 .mai, .mai2 {
     width: 20%;
     height: auto;
     
 }
 
-
+/* header tekst */
 h1 {
     font-family: 'Chalkboy';
     text-align: center; /* Om de tekst horizontaal te centreren */
 }
+
+/* footer */
+.footer nav {
+    background-color: #D9B89C;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    font-size: 14px;
+    justify-content:center;
+    
+  }
+
+.footer nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer nav ul li {
+    margin: 10px;
+}
+
+.footer nav a {
+    color:black;
+}
+
+.footer img {
+    background-color: #D9B89C;
+    padding: 10px;
+    padding-left: 7em;
+    padding-right: 7em;
+    text-align: center;
+       
+}
+.footer p {
+    display: flex;
+    justify-content: center;
+}
+
+/* main page styling */
+
+.intro img {
+    width: 300px; /* Bijvoorbeeld 300 pixels breed */
+    height: auto; /* Behoud de aspect ratio */
+    margin: 10%;
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+}
+
+main p { 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+}
+
+.intro p {
+    background-color: #9CA364;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.intro2 {
+    display: flex;
+    align-items: center; /* Centreer de elementen verticaal */
+}
+
+.intro2 p {
+    background-color: #F2B3B9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0; /* Reset de standaardmarge van de alinea */
+    text-align: center; /* Tekst in het midden van het tekstvlak uitlijnen */
+    width: 38%;
+    margin-bottom: 20px;
+    
+}
+
+.intro2 img {
+    max-width: 30%; /* Voeg een maximale breedte toe aan de afbeelding */
+    border-radius: 10px; /* Voeg afgeronde hoeken toe aan de afbeelding */
+    margin-left: 40px;
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+}
+
+
