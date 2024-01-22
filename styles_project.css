@@ -163,3 +163,9 @@ main p {
 
 
 /* pagina 2 */
+.about p {
+    background-color: #F2B3B9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
