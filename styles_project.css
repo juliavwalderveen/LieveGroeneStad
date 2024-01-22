@@ -1,4 +1,11 @@
 
+body {
+    background-color: #F2EAE4;
+}
+@font-face {
+    font-family: 'Chalkboy';
+    src: url('"C:\Users\julia\OneDrive\Documenten\school\hva\Lieve Groene Stad\LieveGroeneStad\chalkboy.zip".woff2') format('woff2');
+}
 /* navigatie met foto */
 header {
     position: relative;
@@ -45,31 +52,31 @@ nav a {
 }
 
 /* Flexbox-container voor Aubergines aan de linkerkant */
-.flex-container-left {
+.flex-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 20px; 
+    margin: 5px; 
 }
 
-/* Flexbox-container voor Mais aan de rechterkant */
-.flex-container-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 20px;
-}
 
-/* Stijlen voor de Aubergine-afbeeldingen */
+
+/* Stijlen voor de aubergine-afbeeldingen */
 .aub, .aub2 {
-    width: 100px;
+    width: 10%;
     height: auto;
     
 }
 
-/* Stijlen voor de Mais-afbeeldingen */
+/* Stijlen voor de ,ais-afbeeldingen */
 .mai, .mai2 {
-    width: 80px;
+    width: 20%;
     height: auto;
     
+}
+
+
+h1 {
+    font-family: 'Chalkboy';
+    text-align: center; /* Om de tekst horizontaal te centreren */
 }
