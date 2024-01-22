@@ -1,5 +1,5 @@
 
-
+/* navigatie met foto */
 header {
     position: relative;
     overflow: hidden;
@@ -36,4 +36,40 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: #fff;
+}
+
+/* plaatjes groente */
+.aub {
+    width: 100px;
+    height: auto;
+}
+
+/* Flexbox-container voor Aubergines aan de linkerkant */
+.flex-container-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px; 
+}
+
+/* Flexbox-container voor Mais aan de rechterkant */
+.flex-container-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Stijlen voor de Aubergine-afbeeldingen */
+.aub, .aub2 {
+    width: 100px;
+    height: auto;
+    
+}
+
+/* Stijlen voor de Mais-afbeeldingen */
+.mai, .mai2 {
+    width: 80px;
+    height: auto;
+    
 }
