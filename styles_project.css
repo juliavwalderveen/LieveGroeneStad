@@ -268,6 +268,18 @@ main p {
     border-radius: 10px;
 }
 
+.store {
+    display: flex;
+    justify-content: center;
+}
+
+.store img {
+    width: 60%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+    border-radius: 10px;
+}
+
 .tekstje2 {
     position: relative;
 }
@@ -301,4 +313,17 @@ main p {
     padding: 10px;  
     border-radius: 10px;
     margin-left: 22.5%
+}
+
+.fotootje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotootje img {
+    width: 80%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+    border-radius: 10px;
 }
