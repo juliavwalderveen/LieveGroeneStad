@@ -104,7 +104,7 @@ h1 {
     color:black;
 }
 
-.footer img {
+.footer img { 
     background-color: #D9B89C;
     padding: 10px;
     padding-left: 7em;
@@ -119,9 +119,11 @@ footer p {
 /* main page styling */
 
 .intro img {
-    width: 300px; /* Bijvoorbeeld 300 pixels breed */
-    height: auto; /* Behoud de aspect ratio */
+    width: 300px; 
+    height: auto; 
     margin: 10%;
+    margin-bottom: 1px;
+    margin-top: 1px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
 }
@@ -140,24 +142,24 @@ main p {
 
 .intro2 {
     display: flex;
-    align-items: center; /* Centreer de elementen verticaal */
+    align-items: center; 
+    flex-direction: column;
 }
 
 .intro2 p {
     background-color: #F2B3B9;
     padding: 20px;
     border-radius: 10px;
-    margin: 0; /* Reset de standaardmarge van de alinea */
-    text-align: center; /* Tekst in het midden van het tekstvlak uitlijnen */
-    width: 38%;
+    margin: 0; 
+    text-align: center; 
+    width: 70%;
     margin-bottom: 20px;
-    
 }
 
 .intro2 img {
-    max-width: 30%; /* Voeg een maximale breedte toe aan de afbeelding */
-    border-radius: 10px; /* Voeg afgeronde hoeken toe aan de afbeelding */
-    margin-left: 40px;
+    max-width: 50%; 
+    border-radius: 10px; 
+    margin-bottom: 15px;
     box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
 }
 
@@ -180,31 +182,123 @@ main p {
 
 .tekstje p {
     position: absolute;
-    top: 50%; /* Plaats de tekst in het midden van de afbeelding */
-    left: 50%; /* Plaats de tekst in het midden van de afbeelding */
-    transform: translate(-65%, -95%); /* Centreer de tekst exact in het midden */
+    top: 50%;
+    left: 50%; 
+    transform: translate(-65%, -95%); 
     color:black; 
     font-weight: bold;
 }
 
-.product {
+.product1 {
     display: flex; /* Zet de container om in een flex-container */
     align-items: center; /* Centreer de items verticaal */
 }
 
-.product img {
+.product1 img {
     margin: 20px;
+    margin-right: -5px;
     width: 120px; 
     height: 120px;
-    border-radius: 100%; 
+    border-radius: 10px; 
     box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
     z-index: 1;
 }
 
 
-.product p {
-    margin-left: -40px;
+.product1 p {
     background-color: #9CA364;
-    padding: 30px;
+    padding: 27px;
+    padding-right: 50px;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.product2 {
+    display: flex; /* Zet de container om in een flex-container */
+    align-items: center; /* Centreer de items verticaal */
+}
+
+.product2 img {
+    margin: 20px;
+    margin-right: -5px;
+    width: 120px; 
+    height: 120px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+    z-index: 1;
+}
+
+
+.product2 p {
+    background-color: #9CA364;
+    padding: 27px;
+    padding-right: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.product3 {
+    display: flex; /* Zet de container om in een flex-container */
+    align-items: center; /* Centreer de items verticaal */
+}
+
+.product3 img {
+    margin: 20px;
+    margin-right: -5px;
+    width: 120px; 
+    height: 120px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
+    z-index: 1;
+}
+
+
+.product3 p {
+    background-color: #9CA364;
+    padding: 27px;
+    padding-right: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* pagina 3 */
+.zerowaste p{
+    background-color: #F2B3B9;
+    padding: 10px;
     border-radius: 10px;
+}
+
+.tekstje2 {
+    position: relative;
+}
+
+.tekstje2 img {
+    width: 100%; 
+}
+
+.tekstje2 p {
+    position: absolute;
+    top: 18px; /* Plaats de tekst aan de bovenkant van de container */
+    left: 45%; 
+    transform: translateX(-50%); /* Centreer de tekst horizontaal */
+    color: black; 
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 0 0px;
+}
+
+.vergelijkbaar p{
+    background-color: #F2B3B9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.plekken {
+    display: flex;
+    justify-content: center;
+    background-color: #9CA364;
+    width: 50%;
+    padding: 10px;  
+    border-radius: 10px;
+    margin-left: 22.5%
 }
