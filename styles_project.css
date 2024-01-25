@@ -78,19 +78,17 @@ header nav ul li {
 /* header tekst */
 h1 {
     font-family: 'Chalkboy';
-    text-align: center; /* Om de tekst horizontaal te centreren */
+    text-align: center; 
 }
 
 /* footer */
 .footer nav {
+    display: flex;
     background-color: #D9B89C;
     padding: 10px;
     text-align: center;
     color: white;
     display: flex;
-    font-size: 14px;
-    justify-content:center;
-    
   }
 
 .footer nav ul {
@@ -109,9 +107,10 @@ h1 {
 
 .footer img { 
     background-color: #D9B89C;
+    width: 50%;
     padding: 10px;
-    padding-left: 7em;
-    padding-right: 7em;
+    padding-left: 5.5em;
+    padding-right: 5.5em;
     text-align: center;
        
 }
@@ -153,9 +152,9 @@ main p {
     background-color: #F2B3B9;
     padding: 20px;
     border-radius: 10px;
-    margin: 0; 
+    margin: 10px; 
     text-align: center; 
-    width: 70%;
+    width: 89%;
     margin-bottom: 20px;
 }
 
@@ -193,8 +192,8 @@ main p {
 }
 
 .product1 {
-    display: flex; /* Zet de container om in een flex-container */
-    align-items: center; /* Centreer de items verticaal */
+    display: flex; 
+    align-items: center; 
 }
 
 .product1 img {
@@ -293,9 +292,9 @@ main p {
 
 .tekstje2 p {
     position: absolute;
-    top: 18px; /* Plaats de tekst aan de bovenkant van de container */
+    top: 18px; 
     left: 45%; 
-    transform: translateX(-50%); /* Centreer de tekst horizontaal */
+    transform: translateX(-50%); 
     color: black; 
     font-weight: bold;
     font-size: 14px;
@@ -326,7 +325,7 @@ main p {
 
 .fotootje img {
     width: 80%;
-    margin: 10px;
+    margin: 15px;
     box-shadow: 0 0 10px rgba(197, 148, 54, 0.5);
     border-radius: 10px;
 }
