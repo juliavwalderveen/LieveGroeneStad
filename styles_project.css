@@ -149,13 +149,13 @@ main p {
 }
 
 .intro2 p {
-    background-color: #F2B3B9;
     padding: 20px;
     border-radius: 10px;
     margin: 10px; 
     text-align: center; 
     width: 89%;
     margin-bottom: 20px;
+    background-color: black;
 }
 
 .intro2 img {
